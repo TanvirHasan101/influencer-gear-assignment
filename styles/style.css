@@ -12,6 +12,12 @@ body{
      navbar 
  -----------------*/
 
+ .nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+ }
 
 .nav-item{
       margin-right: 124px;
@@ -111,7 +117,7 @@ Line & logos
    display: flex;
    justify-content: center;
    align-items: center;
-   margin-left:190px;
+   margin-left:100px;
    margin-right: 227px;
    margin-top: 221px;
    margin-bottom: 100px;
@@ -217,7 +223,7 @@ CREATIVE SECTION
 }
 
 .image-tedx{
-height: 400px;
+   height: 400px;
     width: 400px;
 }
 
@@ -254,9 +260,4 @@ footer p{
 }
 
 
-
-
-/*----------------------------------------------------------------------------------------
-                                            RESPONSIVE FOR MOBILE
- ------------------------------------------------------------------------------------------*/
 
