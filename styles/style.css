@@ -1,16 +1,16 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-
-
-/*---------------
-     navbar 
- -----------------*/
-.nav-bar{
+.flex-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+/*---------------
+     navbar 
+ -----------------*/
+
 
 .nav-item{
       margin-right: 124px;
@@ -38,3 +38,159 @@ a{
     color:  #3A3A3A;
     font-size:16px;
 }
+
+
+
+/*--------------------------
+ Journey Container 
+ ---------------------------*/
+
+ .journey-container{
+     margin-top: 154px;
+     margin-left: 120px;
+     margin-right: 165px;
+ }
+
+ .journey-container :hover img{
+     transform: scale(1.055);
+     transition: transform 1s ease-in-out;
+
+ } 
+.head-description{
+    width: 582px;
+    height: 270px;
+    margin-bottom: 100px;
+}
+ h1{
+    font-size: 54px;
+    font-weight: 700;
+    color:  #3A3A3A; 
+ }
+
+ 
+ .head-description p{
+     font-size: 16px;
+     font-weight: 600;
+     color:  #3A3A3A;
+     padding-bottom: 16px;
+     
+ }
+
+ .button-anchors{
+     color: white;
+     font-weight: 700;
+     align-items: center;
+     background: #E02C6D;
+     padding:10px 24px;
+     border-radius: 41px;
+    
+ }
+
+ 
+
+.main-camera{
+    background-image: url(../Resources/images/Circle\ design.svg);
+    background-repeat:no-repeat;
+    background-size: 100%;
+
+}
+.main-camera img{
+        
+    width: 440px;
+   height: 414px;
+}
+
+/* ------------------
+Line & logos 
+-------------------*/
+
+.logos-container{
+    width: 1350px;
+   height: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left:190px;
+   margin-right: 227px;
+   margin-top: 221px;
+   margin-bottom: 100px;
+   border-top: 2px solid rgb(75, 75, 75);
+   border-bottom: 2px solid rgb(75, 75, 75);
+   
+
+}
+
+.logos-container img{
+    padding: 0px 60px;
+}
+
+
+
+
+/*------------------
+POPULAR-SECTION 
+--------------------*/
+
+.popular-section{
+ text-align: center ;
+ width: 100%;
+
+}
+
+.popular-section h2{
+    font-weight: 600;
+     color:  #3A3A3A;
+}
+
+.grid-section{
+    margin: 30px 200px ;
+    display: grid;
+    grid-template-columns: repeat( 3,1fr);
+    grid-column-gap:30px;
+    grid-gap: 30px;
+    justify-items: center;
+
+}
+
+.grid-item{
+
+   width: 329px;
+   height: 476px;
+   background: #FFFFFF;
+   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+   border-radius: 5px;
+   padding: 17px 14px;
+
+}
+.item-discription{
+   text-align: left;
+}
+
+
+
+.price-text{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #000000DE;
+
+}
+.fa-star, .fa-star-half-alt{
+    color: #FB8200;
+
+}
+
+.see-more{
+    margin-top: 50px;
+
+    text-align: right;
+    margin-right: 231px;
+}
+.see-more a{
+    font-weight: 700;
+    color:#E02C6D ;
+}
+
+
+
+
+
